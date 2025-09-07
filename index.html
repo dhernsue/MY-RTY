@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RR - आपकी त्योहारों वाली ऐप</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="light-effects"></div>
+        <div class="content">
+            <h1 id="greeting">नमस्ते!</h1>
+            <div class="image-display">
+                <img id="festival-image" src="diwali_laxmi.png" alt="त्योहार छवि">
+            </div>
+            <p id="festival-message">दिवाली की हार्दिक शुभकामनाएं!</p>
+
+            <div class="user-input">
+                <label for="userName">अपना नाम डालें:</label>
+                <input type="text" id="userName" placeholder="आपका नाम">
+                <button onclick="updateGreeting()">जारी रखें</button>
+            </div>
+
+            <div class="share-options">
+                <button onclick="shareOnWhatsApp()">WhatsApp पर शेयर करें</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+  </html>
